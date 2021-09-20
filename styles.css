@@ -23,6 +23,7 @@ li{
    
 }
 header{
+    
     /* border-bottom: 1px solid red; */
 
 }
@@ -41,6 +42,7 @@ header{
 .iconmenu ul{
     display: flex;
     flex-direction: row;
+    
 
 }
 .iconmenu ul >li{
@@ -54,11 +56,13 @@ header{
 .menu ul{
     display: flex;
     flex-direction: row;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
     
 }
 .menu ul > li{
     /* background-color: aqua; */
-    margin-left: 1rem;
+    margin-left: 3rem;
 }
 
 .content{
@@ -66,6 +70,7 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    position: relative;
 
 }
 .about-text h1{
@@ -82,36 +87,58 @@ header{
     border: transparent;
     background-color: #d5eec6;
     border-radius: 5px ;
-    padding: 4px;
+    padding: 7px;
     color: #142E38;
+    font-family: Arial, Helvetica, sans-serif;
+    /* font-size: xx-large; */
 }
 #bottom{
     border: transparent;
     background-color: #318161;
-    border-radius: 3px ;
+    border-radius: 25px ;
     padding: 20px 40px ;
     color: #ffffff;
-    font-weight: 600;
+    font-weight: 500;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
 
 }
 .about-text p{
     color: #142E38;
     margin-bottom: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .sider::after { 
     content: "  ";
-    border:1px solid black;
-    padding-bottom: 120px;
-    margin-left: 40px;
+    border:1px solid #142E38;
+    padding-bottom: 150px;
+    margin-left: 15px;
   }
   .about-img{
-      width: 150px;
+      width: 40%;
   }
 
   .sider ul{
-      padding: 25px;
+      padding: px;
   }
   .sider ul >li{
-      margin-top: 10px;
+      margin-top: 20px;
   }
+.sider{
+    
+    position: absolute;
+    right: 0;
+    bottom: 10rem;
+    padding: 1.5rem;
+
+    
+}
+
+.mid{
+    display: flex;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    
+}
